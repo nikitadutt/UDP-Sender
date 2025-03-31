@@ -38,5 +38,6 @@ where:
 ### Docker is needed for this project
 1. From the ```docker``` directory, run ```./start-simulator.sh``` to start running the receiver.py file with the emulated network profile. Once it's running successfully, you will see a message saying Receiver running.
 2. The receiver has already been programmed to send acknowledgements to the sender similar to the receiver in the discussion.
-3. Run ```python3 sender_stop_and_wait.py``` for the stop-and-wait protocol
-4. Run ```python3 sender_fixed_sliding_window.py``` for the fixed sliding window protocol
+3. Run* ```python3 sender_stop_and_wait.py``` for the stop-and-wait protocol
+4. Run* ```python3 sender_fixed_sliding_window.py``` for the fixed sliding window protocol
+*Note: You may need to run ```python``` instead of ```python3``` depending on your version of Python
